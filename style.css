@@ -1,0 +1,467 @@
+* {
+    box-sizing: border-box;
+}
+
+main, footer {
+    margin-top: 150px;
+    margin-left: 150px;
+    background: rgba(192, 49, 49, 0);
+}
+
+html, body {
+    height: 100%; width: 100%;
+    padding: 0; margin: 0;
+}
+
+body {
+    background: url(
+        https://live.staticflickr.com/65535/49332051956_18cc52cc3a_h.jpg)  repeat-x fixed bottom;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+
+/* Header and Text Styling  */
+#firstName, h1 {
+    color: #FE5757;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva','Verdana', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 64px;
+    margin: 0px;
+    background: rgba(192, 49, 49, 0);
+
+}
+
+#firstName {
+    font-size: 80px;
+    margin-left: 0px;
+}
+
+#lastName {
+    color: #FE5757;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+    color: rgb(82, 82, 82);
+    text-align: left;
+    background: rgba(255, 255, 255, 0);
+
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+#all {
+    text-decoration: underline;
+}
+
+section {
+    background: rgba(192, 49, 49, 0);
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+    color: black;
+    text-align: left;
+    margin-right: 200px;
+    line-height: 2.0;
+    font-size: 18px;
+    background: rgba(192, 49, 49, 0);
+}
+
+.about, .projectList {
+    margin-right: 200px;
+    margin-top: 100px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.685);
+}   
+
+.projectList {
+    margin-bottom: 100px;
+
+}
+
+.harryPotterTrivia{
+    clear: left;
+}
+
+.bottomAbout {
+    margin-bottom: 35px;
+}
+
+/* Image Styling  */
+#mainPhoto {
+    border-radius: 50%;
+    width: 20%;
+    border: solid 2px lightgray;
+    opacity: 85%;
+    float: right;
+    margin: 30px 350px 50px 50px;
+    border: solid rgba(223, 67, 67, 0.575) 5px;
+
+}
+
+.projectImg {
+    width: 65%;
+    height: auto;
+    display: block;
+    clear: left;
+    border: solid rgba(163, 167, 127, 0.692) 10px;
+}
+
+/* Contact Links */
+.social {
+    float: left;
+    clear: left;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: rgba(192, 49, 49, 0);
+
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 30px;
+    font-size: 2vw;
+    background: rgba(192, 49, 49, 0);
+
+}
+
+.social span {
+    color: rgb(7, 172, 117);
+
+}
+
+
+/* Navigation Styling */
+.navBox {
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    cursor: pointer;
+
+}
+.navButton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: left;
+    padding: 14px 28px;
+    margin: 0px 20px 10px 0px;
+    font-size: 16px;
+    border: 3px solid #FE5757;
+    background-color: white;
+    color: #FE5757;
+    cursor: pointer;
+}
+
+.navButton:hover {
+    background-color: rgb(248, 223, 223);
+}
+
+.navButton {
+    margin-bottom: 20px;
+}
+
+/* Old Button Styling
+
+ul, li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+    color:#FE5757;
+    text-align: left;
+    line-height: 1.5; 
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+ul, li:hover {
+    opacity: 75%;
+}
+
+li {
+    border-style: solid;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li a {
+    color: #FE5757;
+    text-decoration: none;
+} */
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1110px) {
+
+    /* Page Styling */
+    main, footer {
+        margin-top: 100px;
+        margin-left: 80px;
+        margin-right: auto;
+    }
+    
+    /* Img Styling */
+    #mainPhoto {
+        float: none;
+        margin: 30px 300px 5px 0px;
+    }
+
+    /* Text Styling */
+
+    #firstName, #lastName {
+        font-size: 70px;
+    }
+
+    p {
+        margin-right: 100px;
+    }
+
+    .about, .projectList {
+        margin-right: 100px;
+    }   
+
+    h2, h3 {
+        font-size: 18px;
+        margin-right: 150px;
+    }
+
+    h2 .harryPotterTrivia{
+        margin-top: 90px;
+    }
+
+    /* Social Styling */
+
+    .social {
+        margin-top: 12px;
+        margin-left: 7px;
+    }
+
+    .social li {
+        font-size: 50px;
+        font-size: 3vw;
+    }
+ 
+}
+
+
+@media screen and (max-width: 800px) {
+   
+    
+    /* Img Styling */
+    #mainPhoto {
+        border-radius: 50%;
+        width: 30%;
+    }
+
+    .projectImg {
+        width: 90%;
+    }
+    /* Page Styling */
+
+    main {
+        margin-top: 70px;
+        margin-left: 60px;
+        margin-right: auto;
+    }
+
+    /* Text Styling */
+    #firstName, #lastName {
+        font-size: 60px;
+    }
+
+    p {
+        margin-right: 90px;
+    }
+
+    .about, .projectList {
+        margin-right: 30px;
+        margin-top: 70px;
+        padding: 15px;
+    }   
+    
+    h2, h3 {
+        font-size: 17px;
+        margin-right: 200px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Page Styling */
+    main, footer {
+        margin-top: 70px;
+        margin-left: 60px;
+        margin-right: auto;
+    }
+
+    /* Text Styling */
+    #firstName, #lastName, h1 {
+        font-size: 50px;
+    }
+
+    p {
+        margin-right: 30px;
+        font-size: 14px;
+    }
+
+    .about, .projectList {
+        margin-right: 60px;
+        margin-top: 70px;
+        padding: 15px;
+    }   
+    
+
+    h2, h3 {
+        font-size: 14px;
+        margin-right: 70px;
+    }
+
+    .harryPotterTrivia{
+        margin-top: 20px;
+    }
+  
+    /* Nav Styling */
+    .navButton {
+        padding: 10px 24px;
+        font-size: 12px;
+
+    }   
+
+    /* Social Styling */
+    .social li {
+        font-size: 40px;
+        font-size: 6vw;
+        margin-right: 10px;
+    }
+
+    /* Img Styling */
+    .projectImg {
+        border: solid rgba(163, 167, 127, 0.692) 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   
+    /* Page Styling */
+    main, footer {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: auto;
+    }  
+
+    /* Text Styling */
+    #firstName, #lastName, h1 {
+        font-size: 45px;
+    }
+
+    p {
+        margin-right: 60px;
+        font-size: 14px;
+    }
+
+
+    .about, .projectList {
+        margin-right: 20px;
+        margin-top: 50px;
+    }   
+
+    h2, h3 {
+        font-size: 14px;
+        margin-right: 90px;
+
+    }
+
+    .harryPotterTrivia{
+        margin-top: 5px;
+    }
+  
+
+    /* Nav Styling */
+    .navButton {
+        padding: 5px 11px;
+        border: 1px solid #FE5757;
+        margin-right: 7px;
+    }   
+
+      /* Social Styling */
+      .social {
+          margin-left: 2px;
+      }
+      .social li {
+        font-size: 40px;
+        font-size: 7vw;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+     /* Page Styling */
+     main, footer {
+        margin-top: 40px;
+        margin-left: 35px;
+        margin-right: auto;
+    }
+    
+    /* Text Styling */
+    #firstName, #lastName, h1 {
+        font-size: 37px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    p {
+        margin-right: 50px;
+        font-size: 14px;
+    }
+
+    h2, h3 {
+        font-size: 14px;
+        margin-right: 50px;
+    }
+
+    /* Nav Styling */
+    .navButton {
+        padding: 4px 10px;
+        border: 1px solid #FE5757;
+        margin-right: 7px;
+    }
+
+    /* Img Styling */
+    #mainPhoto {
+        width: 40%;
+    }
+
+}
