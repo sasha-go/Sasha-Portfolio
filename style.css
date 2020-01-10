@@ -107,6 +107,10 @@ p {
     margin-bottom: 35px;
 }
 
+.container {
+    margin-bottom: 100px;
+}
+
 /* Image Styling  */
 #mainPhoto {
     border-radius: 50%;
@@ -115,7 +119,7 @@ p {
     opacity: 85%;
     float: right;
     margin: 30px 350px 50px 50px;
-    border: solid rgba(223, 67, 67, 0.575) 5px;
+    border: solid rgba(163, 167, 127, 0.692) 5px;
 
 }
 
@@ -169,6 +173,7 @@ li {
     cursor: pointer;
 
 }
+
 .navButton {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
@@ -189,6 +194,15 @@ li {
 
 .navButton {
     margin-bottom: 20px;
+}
+
+.aboutDesc {
+    display: block;
+    clear: left;
+}
+
+.bottomPage {
+    padding: 20px;
 }
 
 /* Old Button Styling
