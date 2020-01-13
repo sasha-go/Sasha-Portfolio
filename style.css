@@ -147,7 +147,7 @@ p {
     display: inline-block;
     margin-right: 10px;
     font-size: 30px;
-    font-size: 2vw;
+    font-size: 3vw;
     background: rgba(192, 49, 49, 0);
 
 }
@@ -283,7 +283,7 @@ li a {
 
     .social li {
         font-size: 50px;
-        font-size: 3vw;
+        font-size: 6vw;
     }
  
 }
@@ -327,6 +327,12 @@ li a {
     h2, h3 {
         font-size: 17px;
         margin-right: 200px;
+    }
+
+    .social li {
+        /* font-size: 40px; */
+        font-size: 9vw;
+        margin-right: 8px;
     }
 
 }
@@ -376,7 +382,7 @@ li a {
     /* Social Styling */
     .social li {
         font-size: 40px;
-        font-size: 6vw;
+        font-size: 9vw;
         margin-right: 10px;
     }
 
@@ -434,8 +440,8 @@ li a {
           margin-left: 2px;
       }
       .social li {
-        font-size: 40px;
-        font-size: 7vw;
+        /* font-size: 40px; */
+        font-size: 10vw;
         margin-right: 10px;
     }
 }
