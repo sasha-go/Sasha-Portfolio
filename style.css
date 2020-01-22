@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 
-main, footer {
+main {
     margin-top: 150px;
     margin-left: 150px;
-    background: rgba(192, 49, 49, 0);
+    /* background: rgba(192, 49, 49, 0); */
 }
 
 html, body {
@@ -184,7 +184,7 @@ li {
     font-size: 16px;
     border: 3px solid #FE5757;
     background-color: white;
-    color: #FE5757;
+    color: rgb(156, 58, 58);
     cursor: pointer;
 }
 
@@ -239,7 +239,7 @@ li a {
 @media screen and (max-width: 1110px) {
 
     /* Page Styling */
-    main, footer {
+    main {
         margin-top: 100px;
         margin-left: 80px;
         margin-right: auto;
@@ -340,7 +340,7 @@ li a {
 @media screen and (max-width: 600px) {
 
     /* Page Styling */
-    main, footer {
+    main {
         margin-top: 70px;
         margin-left: 60px;
         margin-right: auto;
@@ -395,7 +395,7 @@ li a {
 @media screen and (max-width: 480px) {
    
     /* Page Styling */
-    main, footer {
+    main {
     margin-top: 60px;
     margin-left: 50px;
     margin-right: auto;
@@ -449,7 +449,7 @@ li a {
 @media screen and (max-width: 375px) {
 
      /* Page Styling */
-     main, footer {
+     main {
         margin-top: 40px;
         margin-left: 35px;
         margin-right: auto;
